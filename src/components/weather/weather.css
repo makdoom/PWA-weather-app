@@ -30,7 +30,7 @@
   font-size: 3rem;
   pointer-events: none;
   color: lightgray;
-  transition: all 0.4s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 .weather__info {
@@ -44,7 +44,7 @@
 }
 
 .weather__info .city__name {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   margin-bottom: 1rem;
 }
 
@@ -62,6 +62,11 @@
   margin-left: 0.5rem;
 }
 
+.temp__desc {
+  color: #c31432;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
 /* media queries */
 @media screen and (max-width: 768px) {
   .search__box {
