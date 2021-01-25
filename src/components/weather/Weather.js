@@ -36,12 +36,8 @@ const Weather = () => {
       {weather.main && (
         <motion.div
           className="weather__info"
-          initial={{ x: "-100vw" }}
-          animate={{ x: 0 }}
-          whileHover={{
-            scale: 1.1,
-            boxShadow: "0px 0px 10px rgba(255,255,255,.8)",
-          }}
+          initial={{ scale: 1.5 }}
+          animate={{ scale: 1 }}
         >
           <h2 className="city__name">
             <span>{weather?.name}</span>
