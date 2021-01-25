@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="./images/logo.png" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Progressive Weather App" />
@@ -20,7 +20,6 @@
             const register = await navigator.serviceWorker.register(
               "./serviceworker.js"
             );
-            console.log("Success", register);
           } catch (error) {
             console.log("Failure", error);
           }
